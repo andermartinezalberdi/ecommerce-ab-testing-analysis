@@ -1,13 +1,13 @@
-# Data
+# Datos
 
-The original datasets used in this project were provided as part of a TripleTen Data Analyst training exercise.
+Los datasets originales utilizados en este proyecto fueron proporcionados como parte de un ejercicio de formación del programa de Data Analyst de TripleTen.
 
-The datasets are not redistributed in this repository.
+Los archivos de datos no se redistribuyen en este repositorio.
 
-Expected local files:
+Archivos esperados de forma local:
 
 - `hypotheses_us.csv`
 - `orders_us.csv`
 - `visits_us.csv`
 
-These files should be stored locally inside this folder to reproduce the analysis.
+Para reproducir el análisis, estos archivos deben almacenarse localmente dentro de esta carpeta.
