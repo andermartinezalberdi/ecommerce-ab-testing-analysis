@@ -1,0 +1,9 @@
+# Datasets locales
+data/*.csv
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
