@@ -1,3 +1,5 @@
+[![Abrir en Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andermartinezalberdi/ecommerce-ab-testing-analysis/blob/main/notebook/analisis_ab_ecommerce.ipynb)
+
 # E-commerce A/B Testing & Revenue Analysis
 
 Análisis de un experimento A/B para una tienda online, orientado a priorizar oportunidades de crecimiento y determinar qué variante genera mejores resultados de negocio.
