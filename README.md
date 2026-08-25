@@ -85,3 +85,25 @@ El grupo B presenta un crecimiento superior en ingresos acumulados, aunque se ob
 Una vez eliminados los usuarios con comportamiento anómalo, el grupo B mantiene una conversión aproximadamente **18.9% superior** al grupo A.
 
 ![Conversión filtrada](images/conversion_filtrada.png)
+
+
+## Estructura del repositorio
+
+```text
+ecommerce-ab-testing-analysis/
+│
+├── data/
+│   └── README.md
+│
+├── images/
+│   ├── priorizacion_rice.png
+│   ├── ingreso_acumulado.png
+│   └── conversion_filtrada.png
+│
+├── notebook/
+│   └── analisis_ab_ecommerce.ipynb
+│
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
