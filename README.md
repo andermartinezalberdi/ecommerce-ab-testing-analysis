@@ -64,3 +64,24 @@ El análisis se desarrolló en las siguientes etapas:
 La variante B incrementa significativamente la conversión sin evidencia de una diferencia significativa en el tamaño promedio de pedido.
 
 [Ver análisis completo en el notebook](notebook/analisis_ab_ecommerce.ipynb)
+
+
+## Visualizaciones clave
+
+### 1. Priorización de hipótesis con RICE
+
+La metodología RICE permite incorporar el alcance potencial de cada iniciativa y modifica de forma relevante el orden de prioridad frente a ICE.
+
+![Priorización RICE](images/priorizacion_rice.png)
+
+### 2. Ingreso acumulado por grupo
+
+El grupo B presenta un crecimiento superior en ingresos acumulados, aunque se observa un incremento abrupto asociado a pedidos de valor atípico.
+
+![Ingreso acumulado](images/ingreso_acumulado.png)
+
+### 3. Conversión después de eliminar anomalías
+
+Una vez eliminados los usuarios con comportamiento anómalo, el grupo B mantiene una conversión aproximadamente **18.9% superior** al grupo A.
+
+![Conversión filtrada](images/conversion_filtrada.png)
