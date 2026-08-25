@@ -22,6 +22,11 @@ Para responderlas se utilizaron los frameworks **ICE y RICE**, análisis explora
 
 ## Decisión de negocio
 
+**Se recomienda detener el experimento y considerar al grupo B como la variante ganadora.**
+
+La variante B incrementa significativamente la conversión sin evidencia de una diferencia significativa en el tamaño promedio de pedido.
+
+[Ver análisis completo en el notebook](notebook/analisis_ab_ecommerce.ipynb)
 
 
 ## Datos
