@@ -22,6 +22,43 @@ Para responderlas se utilizaron los frameworks **ICE y RICE**, análisis explora
 
 ## Decisión de negocio
 
+
+
+## Datos
+
+El análisis utiliza tres datasets:
+
+- `hypotheses_us.csv`: hipótesis de crecimiento y métricas necesarias para calcular ICE y RICE.
+- `orders_us.csv`: transacciones, usuarios, fechas, ingresos y grupo experimental.
+- `visits_us.csv`: visitas diarias registradas para los grupos A y B.
+
+Los datasets fueron proporcionados como parte de un ejercicio de formación del programa de Data Analyst de TripleTen y no se redistribuyen públicamente en este repositorio.
+
+Más información sobre los archivos esperados en [`data/README.md`](data/README.md).
+
+## Metodología
+
+El análisis se desarrolló en las siguientes etapas:
+
+1. Revisión y preparación de los datos.
+2. Identificación y exclusión de usuarios presentes en ambos grupos.
+3. Priorización de hipótesis mediante **ICE y RICE**.
+4. Análisis de ingresos, conversión y tamaño promedio de pedido.
+5. Detección de valores atípicos mediante percentiles.
+6. Comparación estadística de los grupos mediante la prueba de **Mann–Whitney U**.
+7. Repetición del análisis después de eliminar anomalías.
+8. Formulación de una recomendación de negocio basada en los resultados.
+
+## Herramientas
+
+- Python
+- pandas
+- NumPy
+- Matplotlib
+- SciPy
+- Jupyter Notebook / Google Colab
+- GitHub
+
 **Se recomienda detener el experimento y considerar al grupo B como la variante ganadora.**
 
 La variante B incrementa significativamente la conversión sin evidencia de una diferencia significativa en el tamaño promedio de pedido.
